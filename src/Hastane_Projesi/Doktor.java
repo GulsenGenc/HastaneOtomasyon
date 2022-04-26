@@ -36,4 +36,8 @@ public class Doktor extends VeriBankası {
         this.unvan = unvan;
     }
 
+
+
+
+
 }
