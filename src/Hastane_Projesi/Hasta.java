@@ -6,12 +6,14 @@ public class Hasta extends VeriBankası{
     private int hastaID;
     private Durum hastaDurumu;
 
+
     public Hasta() {
     }
 
     public String getIsim() {
         return isim;
     }
+
     public void setIsim(String isim) {
         this.isim = isim;
     }
