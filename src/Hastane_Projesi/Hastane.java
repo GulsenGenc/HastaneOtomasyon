@@ -9,7 +9,6 @@ public class Hastane extends VeriBankası{
 
     public Hastane() {
     }
-
     public Doktor getDoktor() {
         return doktor;
     }
