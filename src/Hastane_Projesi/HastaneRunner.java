@@ -1,6 +1,6 @@
 package Hastane_Projesi;
 
-import java.util.Arrays;
+
 
 public class HastaneRunner {
     public static void main(String[] args) {
