@@ -5,6 +5,8 @@ public class Hastane extends VeriBankası{
     private Doktor doktor;
     private Hasta hasta;
 
+
+
     public Hastane() {
     }
 
@@ -17,6 +19,8 @@ public class Hastane extends VeriBankası{
     public Hasta getHasta() {
         return hasta;
     }
+
+
     public void setHasta(Hasta hasta) {
         this.hasta = hasta;
     }
