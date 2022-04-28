@@ -14,6 +14,7 @@ public class HastaneRunner {
         System.out.println(doktor);
 
 
+
     }
 
     public static String doktorUnvan(String actuelDurum) {
@@ -29,6 +30,7 @@ public class HastaneRunner {
             return obj.unvanlar[4];
         }else if(actuelDurum.equals("Kalp hastaliklari")){
             return obj.unvanlar[5];
+
         }
 
         return "yanlış unvan";
