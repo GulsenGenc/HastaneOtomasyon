@@ -2,27 +2,38 @@ package Hastane_Projesi;
 
 
 public class HastaneRunner {
-    private static Hastane obj=new Hastane();
+
+
+
+
+private static Hastane obj=new Hastane();
 
     public static void main(String[] args) {
 
     }
 
     public static String doktorUnvan(String actuelDurum) {
+
         if(actuelDurum.equals("Allerji")){
             return obj.unvanlar[0];
         } else if(actuelDurum.equals("Bas agrisi")){
             return obj.unvanlar[1];
         }else if(actuelDurum.equals("Diabet")){
             return obj.unvanlar[2];
+
         }else if(actuelDurum.equals("Soguk alginligi")){
+        }else if(actuelDurum.equals("Soguk alginiligi")){
+
             return obj.unvanlar[3];
         }else if(actuelDurum.equals("Migren")){
             return obj.unvanlar[4];
         }else if(actuelDurum.equals("Kalp hastaliklari")){
             return obj.unvanlar[5];
 
+
+
         }
+
 
         return "yanlış unvan";
     }
