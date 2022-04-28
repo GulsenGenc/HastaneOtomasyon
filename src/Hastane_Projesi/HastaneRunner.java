@@ -22,8 +22,6 @@ private static Hastane obj=new Hastane();
             return obj.unvanlar[2];
 
         }else if(actuelDurum.equals("Soguk alginligi")){
-        }else if(actuelDurum.equals("Soguk alginiligi")){
-
             return obj.unvanlar[3];
         }else if(actuelDurum.equals("Migren")){
             return obj.unvanlar[4];
