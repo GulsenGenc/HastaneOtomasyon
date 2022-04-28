@@ -31,6 +31,11 @@ public class HastaneRunner {
 
     public static Doktor doktorBul(String unvan) {
         Doktor doktor = new Doktor();
+        for (int i = 0; i <Hastane.unvanlar.length; i++) {
+
+
+        }
+
 
         return doktor;
     }
