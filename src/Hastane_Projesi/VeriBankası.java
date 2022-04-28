@@ -14,5 +14,6 @@ public class VeriBankası {
     int[] hastaIDleri = {111, 222, 333, 444, 555, 666};
 
     public VeriBankası() {
+
     }
 }
