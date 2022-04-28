@@ -41,7 +41,6 @@ public class HastaneRunner {
                 break;
             default:
                 System.out.println("geçerli bir durum değildir");
-
         }
 
 
