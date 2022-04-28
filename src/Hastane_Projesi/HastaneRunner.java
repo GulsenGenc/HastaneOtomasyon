@@ -3,16 +3,12 @@ package Hastane_Projesi;
 
 public class HastaneRunner {
 
-
-
-
-private static Hastane obj=new Hastane();
-
     public static void main(String[] args) {
 
     }
 
     public static String doktorUnvan(String actuelDurum) {
+        Hastane obj=new Hastane();
 
         if(actuelDurum.equals("Allerji")){
             return obj.unvanlar[0];
