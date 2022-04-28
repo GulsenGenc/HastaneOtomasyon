@@ -1,15 +1,18 @@
 package Hastane_Projesi;
 
 
+import static Hastane_Projesi.VeriBankası.unvanlar;
 
 public class HastaneRunner {
+
+
     public static void main(String[] args) {
 
         String unvan = doktorUnvan("Baş ağrısı");
         String hastaDurum;
 
         Doktor doktor = new Doktor();
-        doktor = doktorBul("Allergist");
+        doktor = doktorBul("Norolog");
         System.out.println(doktor);
 
 
@@ -20,7 +23,17 @@ public class HastaneRunner {
     }
 
     public static Doktor doktorBul(String unvan) {
+
         Doktor doktor = new Doktor();
+
+        for (int i = 0; i <Doktor.unvanlar.length; i++) {
+
+
+
+        }
+
+
+
 
         return doktor;
     }
@@ -37,5 +50,6 @@ public class HastaneRunner {
         return hasta;
     }
 }
+
 
 
