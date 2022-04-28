@@ -4,7 +4,18 @@ package Hastane_Projesi;
 public class HastaneRunner {
 
     public static void main(String[] args) {
+        String hastaDurumu = "Bas agrisi";
+        String unvan = doktorUnvan(hastaDurumu);
 
+        obj.setDoktor(doktorBul(unvan));
+        System.out.println("Doktor ismi: " + obj.getDoktor().getIsim());
+        System.out.println("Doktor soy isim: " + obj.getDoktor().getSoyIsim());
+        System.out.println("Doktor unvani: " + obj.getDoktor().getUnvan());
+        obj.setHasta(hastaBul(hastaDurumu));
+        System.out.println("Hasta ismi: " + obj.getHasta().getIsim());
+        System.out.println("Hasta soyisim: " + obj.getHasta().getSoyIsim());
+        System.out.println("hasta hasta ID: " + obj.getHasta().getHastaID());
+        System.out.println(hastaDurumuBul(hastaDurumu));
     }
 
     public static String doktorUnvan(String actuelDurum) {
@@ -51,7 +62,20 @@ public class HastaneRunner {
 
 
 
+
+
+
+
+
+
+
+
+
+
+        return doktor;
+
         return doktorObj;
+
     }
 
     public static Durum hastaDurumuBul(String actuelDurum) {
