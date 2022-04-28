@@ -1,12 +1,9 @@
 package Hastane_Projesi;
 
 
-
 public class HastaneRunner {
     private static Hastane obj=new Hastane();
     public static void main(String[] args) {
-
-
 
     }
 
@@ -32,6 +29,12 @@ public class HastaneRunner {
     public static Doktor doktorBul(String unvan) {
         Doktor doktor = new Doktor();
         for (int i = 0; i <Hastane.unvanlar.length; i++) {
+            if (unvan.equals(Doktor.unvanlar[i])) {
+                doktor.setIsim(Doktor.doctorIsimleri[i]);
+                doktor.setSoyIsim(Doktor.doctorSoyIsimleri[i]);
+                doktor.setUnvan(unvan);
+            }
+
 
 
         }
