@@ -43,5 +43,7 @@ public class Hasta extends VeriBankası{
                 ", hastaID=" + hastaID +
                 ", hastaDurumu=" + hastaDurumu +
                 '}';
+
+
     }
 }
