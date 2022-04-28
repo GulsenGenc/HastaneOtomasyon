@@ -32,6 +32,8 @@ private static Hastane obj=new Hastane();
             return obj.unvanlar[5];
         }
 
+
+
         return "yanlış unvan";
     }
 
