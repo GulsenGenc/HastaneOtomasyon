@@ -3,7 +3,7 @@ package Hastane_Projesi;
 
 
 public class HastaneRunner {
-    private static Hastane obj=new Hastane();
+
     public static void main(String[] args) {
 
         String unvan = doktorUnvan("Baş ağrısı");
@@ -17,13 +17,14 @@ public class HastaneRunner {
     }
 
     public static String doktorUnvan(String actuelDurum) {
+        Hastane obj=new Hastane();
         if(actuelDurum.equals("Allerji")){
             return obj.unvanlar[0];
         } else if(actuelDurum.equals("Bas agrisi")){
             return obj.unvanlar[1];
         }else if(actuelDurum.equals("Diabet")){
             return obj.unvanlar[2];
-        }else if(actuelDurum.equals("Soguk alginiligi")){
+        }else if(actuelDurum.equals("Soguk alginligi")){
             return obj.unvanlar[3];
         }else if(actuelDurum.equals("Migren")){
             return obj.unvanlar[4];
