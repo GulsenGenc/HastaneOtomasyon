@@ -5,13 +5,6 @@ import java.util.Arrays;
 public class HastaneRunner {
     public static void main(String[] args) {
 
-        String unvan = doktorUnvan("Baş ağrısı");
-        String hastaDurum;
-
-        Doktor doktor = new Doktor();
-        doktor = doktorBul("Allergist");
-        System.out.println(doktor);
-
 
     }
 
@@ -27,6 +20,30 @@ public class HastaneRunner {
 
     public static Durum hastaDurumuBul(String actuelDurum) {
         Durum hastaDurumu = new Durum();
+        switch (actuelDurum) {
+            case "Baş ağrısı":
+                hastaDurumu.setAciliyet(false);
+                break;
+            case "Allerji":
+                hastaDurumu.setAciliyet(false);
+                break;
+            case "Soğuk algınlığı":
+                hastaDurumu.setAciliyet(false);
+                break;
+            case "Diabet":
+                hastaDurumu.setAciliyet(false);
+                break;
+            case "Kalp hastalıkları":
+                hastaDurumu.setAciliyet(true);
+                break;
+            case "Migren":
+                hastaDurumu.setAciliyet(true);
+                break;
+            default:
+                System.out.println("geçerli bir durum değildir");
+
+        }
+
 
         return hastaDurumu;
     }
