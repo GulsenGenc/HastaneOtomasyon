@@ -24,7 +24,7 @@ public class HastaneRunner {
             return obj.unvanlar[1];
         }else if(actuelDurum.equals("Diabet")){
             return obj.unvanlar[2];
-        }else if(actuelDurum.equals("Soguk alginiligi")){
+        }else if(actuelDurum.equals("Soguk alginligi")){
             return obj.unvanlar[3];
         }else if(actuelDurum.equals("Migren")){
             return obj.unvanlar[4];
