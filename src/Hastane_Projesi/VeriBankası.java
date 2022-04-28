@@ -1,8 +1,8 @@
 package Hastane_Projesi;
 
 public class VeriBankası {
-    String[] doctorIsimleri = {"Nilson", "John", "Robert", "Marry", "Alan", "Mahesh"};
-    String[] doctorSoyIsimleri = {"Avery", "Abel", "Erik", "Jacob", "Pedro", "Tristen"};
+    static String[] doctorIsimleri = {"Nilson", "John", "Robert", "Marry", "Alan", "Mahesh"};
+    static String[] doctorSoyIsimleri = {"Avery", "Abel", "Erik", "Jacob", "Pedro", "Tristen"};
 
     static String[] unvanlar = {"Allergist", "Norolog", "Genel cerrah", "Cocuk doktoru", "Dahiliye", "Kardiolog"};
 

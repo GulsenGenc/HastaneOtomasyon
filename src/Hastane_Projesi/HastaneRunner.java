@@ -37,6 +37,17 @@ public class HastaneRunner {
         }
 
 
+
+
+
+
+
+
+
+
+
+      
+
         return doktor;
     }
 
