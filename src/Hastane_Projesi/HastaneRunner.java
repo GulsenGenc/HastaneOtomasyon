@@ -33,6 +33,16 @@ public class HastaneRunner {
                 doktor.setIsim(Doktor.doctorIsimleri[i]);
                 doktor.setSoyIsim(Doktor.doctorSoyIsimleri[i]);
                 doktor.setUnvan(unvan);
+
+
+
+
+
+
+
+
+
+
             }
 
 
