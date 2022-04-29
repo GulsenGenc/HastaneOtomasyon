@@ -35,4 +35,7 @@ public class Doktor extends VeriBankası {
     public void setUnvan(String unvan) {
         this.unvan = unvan;
     }
+
+
+
 }

@@ -16,4 +16,7 @@ public class VeriBankası {
     public VeriBankası() {
 
     }
+
+    protected String toString() {
+    }
 }
