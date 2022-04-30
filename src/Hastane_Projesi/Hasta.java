@@ -5,11 +5,8 @@ public class Hasta extends VeriBankası{
     private String soyIsim;
     private int hastaID;
     private Durum hastaDurumu;
-
-
     public Hasta() {
     }
-
     public String getIsim() {
         return isim;
     }
